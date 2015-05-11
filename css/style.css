@@ -1,0 +1,90 @@
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top:
+  3px solid #83788E;
+  margin: 1em 0;
+  padding: 0;
+}
+
+h4 {
+  color: #83788E;
+}
+
+.circle {
+  -webkit-clip-path: circle(50px at center);
+  clip-path: circle(50px at center);
+}
+
+.svg-clipped {
+  -webkit-clip-path: url(#svgPath);
+  clip-path: url(#svgPath);
+}
+
+.portfolio_black {
+    background-color: #131A2D;
+}
+
+body {
+  font-family: 'Shadows Into Light', cursive;
+  color: #625272;
+  font-weight: 300;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-muted {
+  color: #B6A6C2;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+  /*display: block;
+  margin:auto;*/
+}
+
+.tint {
+  -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+  -webkit-filter: brightness(50%);
+}
+
+.width_100 {
+  width: 100vmax;
+  max-height: 170px;
+}
+
+.modal_width_100 {
+  width: 100vmax;
+}
+
+.width_100:hover {
+    cursor: pointer;
+}
+
+.responsive_width {
+  min-height: 30vmin;
+  width: 100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  .name {
+    text-align: center;
+  }
+  .logo {
+    vertical-align: middle;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
